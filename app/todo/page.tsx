@@ -51,9 +51,7 @@ function FormTodo() {
   return (
     <section className="flex justify-center items-center mt-5">
       <div className="flex justify-center flex-col">
-        <h2 className="text-center uppercase font-bold text-sm mb-8">
-          Crea tu tarea
-        </h2>
+        <h2 className="text-center font-bold text-sm mb-8">Crea tu tarea</h2>
         <form action={action} className="w-96 flex flex-col gap-2">
           <Input name="title" />
           {state?.errors && (
